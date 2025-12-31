@@ -2,7 +2,7 @@ require('dotenv').config();
 const puppeteer = require('puppeteer');
 const axios = require('axios');
 
-const API_URL = process.env.API_URL || 'http://localhost:3000/api/discounts';
+const API_URL = process.env.API_URL || (process.env.BACKEND_HOST ? `http://${process.env.BACKEND_HOST}/api/discounts` : 'http://localhost:3000/api/discounts');
 
 async function validateDiscounts() {
   console.log('Starting validation process...');

@@ -22,12 +22,11 @@ services:
     dockerContext: ./validation-service
     plan: free
     envVars:
-      - key: API_URL
+      - key: BACKEND_HOST
         fromService:
           type: web
           name: chilecupones-backend
-          property: url
-        value: /api/discounts # Append path to the service URL
+          property: hostport
 
   # Frontend (Static Site) - Optional, Vercel is recommended but Render works too
   - type: web
@@ -38,7 +37,4 @@ services:
     rootDir: frontend
     envVars:
       - key: VITE_API_URL
-        fromService:
-          type: web
-          name: chilecupones-backend
-          property: url
+        sync: false
