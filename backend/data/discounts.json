@@ -1,0 +1,212 @@
+[
+  {
+    "externalId": "101",
+    "title": "23% Dcto en Starbucks",
+    "description": "Descuento exclusivo pagando con Banco de Chile.",
+    "discountPercentage": 23,
+    "url": "https://www.starbucks.cl",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Starbucks_Corporation_Logo_2011.svg/1200px-Starbucks_Corporation_Logo_2011.svg.png",
+    "store": {
+      "name": "Starbucks",
+      "slug": "starbucks"
+    },
+    "_id": "101",
+    "source": "mock-bank-chile",
+    "latitude": -33.42628,
+    "longitude": -70.61099,
+    "paymentMethod": "Banco de Chile",
+    "verified": true,
+    "lastVerifiedAt": "2025-12-31T02:06:59.279Z"
+  },
+  {
+    "externalId": "102",
+    "title": "40% Dcto en McDonald's",
+    "description": "Descuento exclusivo pagando con CMR Falabella.",
+    "discountPercentage": 40,
+    "url": "https://www.mcdonalds.cl",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/McDonald%27s_Golden_Arches.svg/1200px-McDonald%27s_Golden_Arches.svg.png",
+    "store": {
+      "name": "McDonald's",
+      "slug": "mcdonalds"
+    },
+    "_id": "102",
+    "source": "mock-bank-chile",
+    "latitude": -33.4372,
+    "longitude": -70.6506,
+    "paymentMethod": "CMR Falabella"
+  },
+  {
+    "externalId": "103",
+    "title": "30% en Farmacias Ahumada",
+    "description": "Descuento exclusivo pagando con Banco Santander.",
+    "discountPercentage": 30,
+    "url": "https://www.farmaciasahumada.cl",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Farmacias_Ahumada_logo.svg/2560px-Farmacias_Ahumada_logo.svg.png",
+    "latitude": -33.41,
+    "longitude": -70.57,
+    "store": {
+      "name": "Farmacias Ahumada",
+      "slug": "farmacias-ahumada"
+    },
+    "_id": "103",
+    "source": "mock-bank-chile",
+    "paymentMethod": "Banco Santander",
+    "verified": true,
+    "lastVerifiedAt": "2025-12-31T02:07:05.042Z",
+    "clicks": 1
+  },
+  {
+    "externalId": "104-6781",
+    "title": "25% en Dunkin Donuts",
+    "description": "Descuento exclusivo pagando con CMR Falabella.",
+    "discountPercentage": 25,
+    "url": "https://www.dunkindonuts.cl",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/Dunkin%27_Donuts_logo.svg/1200px-Dunkin%27_Donuts_logo.svg.png",
+    "latitude": -33.42,
+    "longitude": -70.6,
+    "paymentMethod": "CMR Falabella",
+    "store": {
+      "name": "Dunkin Donuts",
+      "slug": "dunkin-donuts"
+    },
+    "_id": "104-6781",
+    "source": "mock-bank-chile"
+  },
+  {
+    "externalId": "bch-real-001",
+    "title": "40% Dcto en Pedro, Juan y Diego",
+    "description": "Descuento exclusivo en Pedro, Juan y Diego",
+    "discountPercentage": 40,
+    "url": "https://portales.bancochile.cl/personas/beneficios/sabores",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Pedro_Juan_y_Diego_logo.svg",
+    "latitude": -33.4489,
+    "longitude": -70.6693,
+    "paymentMethod": "Banco de Chile",
+    "store": {
+      "name": "Pedro, Juan y Diego",
+      "slug": "pedro-juan-y-diego"
+    },
+    "_id": "bch-real-001",
+    "source": "banco-chile"
+  },
+  {
+    "externalId": "bch-real-002",
+    "title": "25% Dcto en Salcobrand",
+    "description": "Descuento exclusivo en Salcobrand",
+    "discountPercentage": 25,
+    "url": "https://portales.bancochile.cl/personas/beneficios/salud",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Farmacias_Salcobrand_logo.svg/2560px-Farmacias_Salcobrand_logo.svg.png",
+    "latitude": -33.42628,
+    "longitude": -70.61099,
+    "paymentMethod": "Banco de Chile",
+    "store": {
+      "name": "Salcobrand",
+      "slug": "salcobrand"
+    },
+    "_id": "bch-real-002",
+    "source": "banco-chile"
+  },
+  {
+    "externalId": "bch-real-003",
+    "title": "$150 de descuento por litro en Shell",
+    "description": "Descuento exclusivo en Shell",
+    "discountPercentage": 0,
+    "url": "https://portales.bancochile.cl/personas/beneficios",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e8/Shell_logo.svg/1200px-Shell_logo.svg.png",
+    "latitude": -33.41,
+    "longitude": -70.57,
+    "paymentMethod": "Banco de Chile",
+    "store": {
+      "name": "Shell",
+      "slug": "shell"
+    },
+    "_id": "bch-real-003",
+    "source": "banco-chile"
+  },
+  {
+    "externalId": "104-4428",
+    "title": "25% en Dunkin Donuts",
+    "description": "Descuento exclusivo pagando con CMR Falabella.",
+    "discountPercentage": 25,
+    "url": "https://www.dunkindonuts.cl",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/Dunkin%27_Donuts_logo.svg/1200px-Dunkin%27_Donuts_logo.svg.png",
+    "latitude": -33.42,
+    "longitude": -70.6,
+    "paymentMethod": "CMR Falabella",
+    "store": {
+      "name": "Dunkin Donuts",
+      "slug": "dunkin-donuts"
+    },
+    "_id": "104-4428",
+    "source": "mock-bank-chile"
+  },
+  {
+    "externalId": "104-8168",
+    "title": "25% en Dunkin Donuts",
+    "description": "Descuento exclusivo pagando con CMR Falabella.",
+    "discountPercentage": 25,
+    "url": "https://www.dunkindonuts.cl",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/Dunkin%27_Donuts_logo.svg/1200px-Dunkin%27_Donuts_logo.svg.png",
+    "latitude": -33.42,
+    "longitude": -70.6,
+    "paymentMethod": "CMR Falabella",
+    "store": {
+      "name": "Dunkin Donuts",
+      "slug": "dunkin-donuts"
+    },
+    "_id": "104-8168",
+    "source": "mock-bank-chile"
+  },
+  {
+    "externalId": "itau-real-001",
+    "title": "40% Dcto en Rappi",
+    "description": "Descuento exclusivo pagando con Tarjetas Itaú.",
+    "discountPercentage": 40,
+    "url": "https://beneficios.itau.cl/",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Rappi_logo.svg/1200px-Rappi_logo.svg.png",
+    "latitude": -33.41,
+    "longitude": -70.57,
+    "paymentMethod": "Banco Itaú",
+    "store": {
+      "name": "Rappi",
+      "slug": "rappi"
+    },
+    "_id": "itau-real-001",
+    "source": "banco-itau",
+    "clicks": 2
+  },
+  {
+    "externalId": "itau-real-002",
+    "title": "30% Dcto en Fork",
+    "description": "Descuento exclusivo pagando con Tarjetas Itaú.",
+    "discountPercentage": 30,
+    "url": "https://beneficios.itau.cl/",
+    "imageUrl": "https://fork-production.s3.amazonaws.com/uploads/spree/logo/asset/1/logo-fork.png",
+    "latitude": -33.42628,
+    "longitude": -70.61099,
+    "paymentMethod": "Banco Itaú",
+    "store": {
+      "name": "Fork",
+      "slug": "fork"
+    },
+    "_id": "itau-real-002",
+    "source": "banco-itau"
+  },
+  {
+    "externalId": "itau-real-003",
+    "title": "20% Dcto en Jumbo",
+    "description": "Descuento exclusivo pagando con Tarjetas Itaú.",
+    "discountPercentage": 20,
+    "url": "https://beneficios.itau.cl/",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Jumbo_Cencosud_logo.svg/2560px-Jumbo_Cencosud_logo.svg.png",
+    "latitude": -33.4489,
+    "longitude": -70.6693,
+    "paymentMethod": "Banco Itaú",
+    "store": {
+      "name": "Jumbo",
+      "slug": "jumbo"
+    },
+    "_id": "itau-real-003",
+    "source": "banco-itau"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "folders": [
+    { "path": "backend" },
+    { "path": "validation-service" },
+    { "path": "frontend" },
+    { "path": "crawler-scripts" }
+  ],
+  "settings": {
+    "explorer.openEditors.visible": 1
+  }
+}

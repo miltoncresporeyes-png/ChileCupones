@@ -1,0 +1,44 @@
+services:
+  # Backend Service (Node.js + Python Crawlers)
+  - type: web
+    name: chilecupones-backend
+    env: docker
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: .
+    plan: free
+    envVars:
+      - key: PORT
+        value: 3000
+      - key: MONGO_URI
+        sync: false # User must provide this
+      - key: NODE_ENV
+        value: production
+
+  # Validation Service (Node.js + Puppeteer)
+  - type: worker
+    name: chilecupones-validation
+    env: docker
+    dockerfilePath: ./validation-service/Dockerfile
+    dockerContext: ./validation-service
+    plan: free
+    envVars:
+      - key: API_URL
+        fromService:
+          type: web
+          name: chilecupones-backend
+          property: url
+        value: /api/discounts # Append path to the service URL
+
+  # Frontend (Static Site) - Optional, Vercel is recommended but Render works too
+  - type: web
+    name: chilecupones-frontend
+    env: static
+    buildCommand: npm install && npm run build
+    staticPublishPath: ./dist
+    rootDir: frontend
+    envVars:
+      - key: VITE_API_URL
+        fromService:
+          type: web
+          name: chilecupones-backend
+          property: url
